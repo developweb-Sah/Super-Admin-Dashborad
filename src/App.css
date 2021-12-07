@@ -1,38 +1,47 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar {
+  width: 8%;
+
+  display: flex;
+}
+.head {
+  width: 92%;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main_box {
+  box-shadow: 1px 1px 1px 1px #d0d5dd;
+}
+.main_box_border {
+  border: #d0d5dd;
+}
+.main_button {
+  display: flex;
+  width: 100%;
+}
+.main_button_start {
+  flex: 50%;
+}
+.main_buttom_search {
+  border: 1px solid #d0d5dd;
+  padding: 3px;
+  width: 20px;
+}
+.main_button_search {
+  width: 60vh;
+  text-align: left;
+}
+.hospital_numbers {
+  font-size: 12px;
+  position: absolute;
+  padding-left: 6px;
+  color: #1faf9f;
+}
+.pencil,
+.trash {
+  padding-left: 10px;
 }
